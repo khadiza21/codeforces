@@ -14,7 +14,7 @@ bool isSquareMatrix(const string &s, int n)
         }
     }
 
-    // Check if the first and last columns are all 1's
+    
     for (int i = 0; i < n; i++)
     {
         if (s[i * n] != '1' || s[i * n + (n - 1)] != '1')
